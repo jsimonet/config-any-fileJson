@@ -1,0 +1,17 @@
+{
+  "name": "Config::Any::FileJSON",
+  "perl": "v6.c",
+  "scripts": {
+    "test": "zef test ."
+  },
+  "tags": [
+    "config"
+  ],
+  "license": "https://opensource.org/licenses/Artistic-2.0",
+  "production": false,
+  "version": "0.0.1",
+  "authors": [
+    "Julien Simonet"
+  ],
+  "description": "A JSON backend for Config::Any."
+}
