@@ -7,8 +7,8 @@ use JSON::Path;
 use Config::Any::Backend;
 
 class Config::Any::Backend::FileJSON is Config::Any::Backend
-	does Config::Any::Backend::Reader
-	does Config::Any::Backend::Writer {
+	does Config::Any::Backend::Reader {
+	# does Config::Any::Backend::Writer {
 
 	has $.filePath;
 	has $!data;
